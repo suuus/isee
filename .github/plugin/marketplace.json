@@ -1,0 +1,15 @@
+{
+  "name": "isee",
+  "metadata": {
+    "description": "ISEE umbrella agent for ordinary Copilot sessions and agentic flows.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "isee",
+      "description": "Resolve Intent, compile Structure, govern Execution, and verify Evidence.",
+      "version": "0.1.0",
+      "source": "."
+    }
+  ]
+}

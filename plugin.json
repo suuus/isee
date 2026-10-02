@@ -1,0 +1,15 @@
+{
+  "name": "isee",
+  "description": "Use ADRP Intent, ASRP Structure, and AERP Evidence from one Copilot agent.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Suzanne Daniels",
+    "url": "https://github.com/suuus/isee"
+  },
+  "homepage": "https://github.com/suuus/isee",
+  "repository": "https://github.com/suuus/isee",
+  "license": "MIT",
+  "keywords": ["agents", "copilot", "evidence", "governance", "intent", "isee", "structure"],
+  "agents": ".github/agents/",
+  "skills": ".github/skills/"
+}
