@@ -1,5 +1,15 @@
 # Regular GitHub Copilot usage
 
+## Install the suite
+
+```bash
+copilot plugin marketplace add suuus/isee-plugins
+copilot plugin install isee-suite@isee
+```
+
+Select `/agent isee`. The suite includes all specialist agents and skills; no
+`/add-dir` commands or manual copying are required.
+
 ## Repository setup
 
 ```bash
@@ -32,7 +42,7 @@ Use file mentions:
 Implement issue 42. Stop if a blocking gate cannot be satisfied.
 ```
 
-## Local plugin development
+## Local plugin development only
 
 Copilot CLI can trust and load local agents and skills with:
 
@@ -45,3 +55,6 @@ Copilot CLI can trust and load local agents and skills with:
 ```
 
 Published plugins can be managed through `/plugin`.
+
+For normal installation and updates, use the
+[ISEE marketplace](https://github.com/suuus/isee-plugins).

@@ -3,6 +3,9 @@
 > Put governed Intent, Structure, Execution, and Evidence into an ordinary
 > GitHub Copilot session or an automated agentic flow.
 
+ISEE is the operating framework for AI-native engineering teams. Read the
+framework overview at [agentile.org](https://agentile.org).
+
 This repository is the thin user-facing integration over:
 
 - [ADRP](https://github.com/suuus/adrp) — durable Intent;
@@ -12,6 +15,25 @@ This repository is the thin user-facing integration over:
 
 It does not duplicate their standards. It orchestrates their deterministic
 CLIs and projects the result into files GitHub Copilot already understands.
+
+## Install
+
+Install the complete [ISEE plugin suite](https://github.com/suuus/isee-plugins):
+
+```bash
+copilot plugin marketplace add suuus/isee-plugins
+copilot plugin install isee-suite@isee
+```
+
+Then select `/agent isee`. The suite also includes the ADRP, ASRP, AERP, and
+ISEE Advisor agents and skills. Use `isee-setup` to install or diagnose the
+deterministic CLIs.
+
+To load only this integration plugin:
+
+```bash
+copilot plugin install isee@isee
+```
 
 ## Regular Copilot session
 

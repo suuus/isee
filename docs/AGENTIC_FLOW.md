@@ -1,5 +1,9 @@
 # Agentic flow
 
+Install the complete Copilot workflow from
+[suuus/isee-plugins](https://github.com/suuus/isee-plugins). The conceptual
+framework is documented at [agentile.org](https://agentile.org).
+
 ## Preflight
 
 `isee preflight` performs deterministic tool orchestration:
